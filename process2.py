@@ -5,3 +5,5 @@
 import pandas as pd
 xy = read_csv("C:/Docs/edwin/raja.xlsx")!
 xy.groupby("TEST")["hari","manu","jojon"].sum()
+
+xy.groupby("manu").nunique()
